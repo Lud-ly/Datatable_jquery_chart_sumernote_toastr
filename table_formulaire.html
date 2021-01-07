@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>TP FORMULAIRE</title>
+	<meta charset="utf-8">
+	<meta name="description" content="TP FORMULAIRE">
+	<!-- For Internet Explhorreur : to force css3 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- Tablettes 'n' Mobiles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- main css and js -->
+    <link rel="stylesheet" href="./js/jquery-ui-1.12.1/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="./datatables.min.css">
+	<!-- include libraries BS3 -->
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+	<!-- include summernote -->
+	<link rel="stylesheet" type="text/css" href="./summernote/summernote.css">
+	<link rel="stylesheet" type="text/css" href="./css/table.css">
+</head>
+
+<body>
+	<div id="page">
+		<header>
+			<!-- <img src='./img/logo.png'> -->
+			<h1>Listing Parc-Auto</h1>
+			<!-- Entête de la zone considérée -->
+		</header>
+		<nav>
+			<!-- Nav. principale de la page -->
+		</nav>
+		<aside>
+			<!-- Les à-cotés de la page -->
+		</aside>
+		<!-- Contenu textuel de la page -->
+		<section>
+			<table id="table_cars" style="width:100%" border="1"></table>
+			<div class="myForm">
+				<div id="div_resultat"></div>
+				<div id="div_maj"></div>
+				<div id="div_delete"></div>
+				<h1>Ajouter un modèle</h1>
+				<p> Millésime : <input type="text" name="annee" id="annee"></p>
+				<p>Marque : <input type="text" name="marque" id="marque"></p>
+				<p>Modèle : <input type="text" name="modele" id="modele"></p>
+				<p>Motorisation : <input type="text" name="motorisation" id="motorisation"></p>
+				<p>Puissance : <input type="text" name="cv" id="cv"></p>
+				<p>Mise en circulation : <input type="text" name="circulation" id="circulation"></p>
+				<h4 class="summerTitle">Description du véhicule :</h4>
+				<textarea id="summernote" name="summernote" class="summernote"></textarea>
+				
+			</div>
+			<p class="control">
+				<button onclick="addCar_server()" class="btn_action" id="btn_ajouter">AJOUTER</button>
+
+				<button onclick="majCar_server()" class="btn_modif hide" id="btn_modifier">MODIFIER</button>
+
+				<button onclick="annulCar()" class="btn_save hide" id="btn_annuler">ANNULER</button>
+			</p>
+		</section>
+		<section class="myFamousChart">
+			<button id="renderBtn">
+				Chart
+			</button>
+			<div class="container">
+				<canvas id="myChart"></canvas>
+			</div>
+		</section>
+		<footer>
+			<!-- Pied-de-page de la page -->
+		</footer>
+	</div>
+	
+	<!-- CREATION MODAL ENREGISTREMENT EN COURS -->
+	<div class="modalChanged" id="divModalSaving">
+	</div>
+
+	<script type="text/javascript" src="./js/frameworks/jquery_3_3_1.js"></script>
+	<script src="./js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="./js/frameworks/datatables.min.js"></script>
+	<script type="text/javascript" src="./js/popper_1-14-5.js"></script>
+	<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./summernote/summernote.js"></script>
+	<script type="text/javascript" src="./summernote/lang/summernote-fr-FR.js"></script>
+	<!--Import function main  js & config Datatable-->
+
+	<script type="text/javascript" charset="utf8" src="./js/main.js"></script>
+	<script type="text/javascript" charset="utf8" src="./js/mySummernote.js"></script>
+	<script type="text/javascript" charset="utf8" src="./js/datepicker.js"></script>
+	<script type="text/javascript" charset="utf8" src="./js/myChart.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>	
+
+</body>
+
+</html>

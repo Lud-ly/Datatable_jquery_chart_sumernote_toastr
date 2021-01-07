@@ -1,0 +1,168 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#page{
+    width: calc(100% - 150px);
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+div.container {
+    width: 100%;
+}
+element.style {
+    width:0;
+}
+.popover{
+   display: none;
+}
+header{
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: rgb(226, 224, 224);
+}
+header h1{
+ text-transform: uppercase;
+ color: whitesmoke;
+}
+#div_res_error{
+    color:red;
+    font-size: large;
+    text-align: center;
+}
+section{
+    box-sizing: content-box;
+    margin-top: 50px;
+    border-radius: 3px;
+    background-color: rgb(226, 224, 224);
+    padding: 30px;
+ }
+ section h1{
+     margin-bottom: 50px;
+ }
+ .summerTitle {
+ margin: 50px;
+ }
+ canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+#table_cars{
+margin-bottom: 30px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid rgb(23, 120, 231);
+    width: 20%;
+    border-radius: 10px;
+}
+#div_resultat{
+    background-color: rgb(23, 120, 231)!important;
+    text-align: center;
+    color: ivory;
+    font-size: large;
+  }
+#div_delete{
+    background-color: red;
+    text-align: center;
+    font-size: large;
+  }
+  #div_maj{
+    background-color: yellow;
+    text-align: center;
+    font-size: large;
+  }
+  .titleSummernote{
+    padding: 20px;
+  }
+.error_input{
+    border: 2px solid red!important;
+}
+    .even td{
+    background-color: rgb(23, 120, 231)!important;
+    color: whitesmoke!important;
+} 
+select{
+margin-bottom: 50px;
+}
+
+.icon{
+    cursor: pointer;
+}
+.myForm{
+color: rgb(23, 120, 231);
+text-align: center;
+margin-top: 80px;
+}
+button {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    height: 40px;
+}
+.btn_action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:   rgb(23, 120, 231);
+    border: 2px solid rgb(23, 120, 231);
+}
+.btn_action:hover {
+    color: rgb(21, 223, 31);
+    transition-duration: 2s;
+}
+.btn_save {
+    background-color: #ff0000;
+    color: #000;
+    border: 2px solid #000;
+}
+.btn_save:hover {
+    background-color: #fff;
+    border: 2px solid #a00808;
+    transition-duration: 1s;
+}
+.btn_modif {
+    background-color: rgb(10, 149, 10);
+    color: white;
+    border: 2px solid  rgb(23, 120, 231);
+}
+.btn_modif:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid rgb(10, 149, 10);
+    transition-duration: 1s;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: inline-block;
+    margin: 0 auto;
+}
+.control button{
+    margin: 0 auto!important;
+}
+/* Style modal saving in progress */
+#divModalSaving {
+	background-image: url(../img/chargement.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 1000;
+}
+
+/* Style modal all space */
+.modalChanged {
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+}

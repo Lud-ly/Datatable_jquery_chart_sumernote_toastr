@@ -1,0 +1,12 @@
+30/12/2015||Bmw||M3||3.5L V6||431||2016||c'est pas mal mais bon un peu cher les mamies
+13/12/2017||Porsche||911 GT2 RS||V6 à plat 2turbos||700||2016||Puissance énorme accélération
+26/12/2024||Porsche||Carrera S||V6 3.0L||450||2016||Puissance et grosse accélération de zero à cent iuhoh
+06/06/2010||Renault||Clio 3 RS||2.0L16s||197||2016||Très bonne finition dans l'ensemble,bon chassis et freinage brembo boite 6 vitesses
+20/12/2011||Peugeot||403||Tracto Mazout||750||2016||Grimpe aux arbres
+05/04/2010||Ferrari||Enzo||V12||660||2016||Le rêve absolu
+14/12/2010||Chevrolet||Corvette C8||V8 LT2 6.2L||755||2016||c'est trop vieux
+01/01/2017||Mercedes||Class A AMG||V4 2.0L||381||14/05/2017||ça envoi du bois
+11/12/2011||Lancia||Delta||3.0||351||2016||Excellente voiture de rallye sur terre
+07/12/2020||Bugatti||Veyron||7.0L||1000||31/12/2020||Voiture à Benzema
+04/02/2020||Peugeot||307sw||1.6hdi||110||01/12/2020||quelle bête mais un peu pourraave mais bien
+01/12/2020||Peugeot||308GTI||2.0 16s||220||27/12/2020||<h1><u><b style="background-color: rgb(156, 0, 255);">Poid-Puissance&nbsp;</b></u></h1>
